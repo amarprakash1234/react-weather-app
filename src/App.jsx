@@ -1,5 +1,7 @@
 // import './App.css'
-import WeeatherApp from "./WeatherApp";
+import Button from '@mui/material/Button';
+import DeleteIcon from '@mui/icons-material/Delete';
+import WeatherApp from "./WeatherApp";
 
 function App() {
   function handleClick() {
@@ -8,8 +10,7 @@ function App() {
 
   return (
     <>
-    <WeeatherApp />
-      
+      <WeatherApp />
     </>
   )
 }
